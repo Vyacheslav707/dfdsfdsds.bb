@@ -13,6 +13,8 @@
                 .logo_img {
 
                     width: 100%;
+                    margin-left: 15px;
+                    margin-right: 15px;
 
                 }
 
@@ -20,26 +22,54 @@
 
         }
 
-    }
+        .greetings {
 
-    .box_sizes_media {
+            .greetings_text {
 
-        flex-direction: column;
-        margin: 0 auto;
-        width: 700px !important;
+                font-size: 18px;
 
-    }
+                h2 {
 
-    .box_sizes_picture_media, .about_business_text {
+                    text-align: center;
 
-        width: 100% !important;
-        text-align: center;
+                }
 
-    }
+                h1 {
 
-    .box_sizes_text_media {
+                    text-align: center;
 
-        width: 100% !important;
+                }
+
+            }
+
+        }
+
+        .description {
+
+            display: block;
+
+        }
+
+        .box_sizes_media {
+
+            flex-direction: column;
+            margin: 0 auto;
+            width: 700px !important;
+
+            .box_sizes_picture_media, .about_business_text {
+
+                width: 100% !important;
+                text-align: center;
+        
+            }
+
+            .box_sizes_text_media {
+
+                width: 100% !important;
+        
+            }
+    
+        }
 
     }
 
