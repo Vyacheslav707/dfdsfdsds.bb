@@ -1,0 +1,180 @@
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .container {
+
+        margin: 0 auto;
+        width: 700px;
+
+    }
+
+    .box_sizes_media {
+
+        flex-direction: column;
+        margin: 0 auto;
+        width: 700px !important;
+
+    }
+
+    .box_sizes_picture_media, .about_business_text {
+
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .box_sizes_text_media {
+
+        width: 100% !important;
+
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .container {
+
+        margin: 0 auto;
+        width: 481px;
+
+    }
+
+    .logo {
+
+        width: 481px !important;
+
+    }
+
+    .box_sizes_media {
+
+        flex-direction: column;
+        margin: 0 auto;
+        width: 481px !important;
+
+    }
+
+    .box_sizes_picture_media, .about_business_text {
+
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .box_sizes_text_media {
+
+        width: 100% !important;
+
+    }
+
+    .about_registration_text_paragraph, .about_business_text_paragraph {
+
+        padding-left: 0 !important;
+        padding: 0 10px 0 10px !important;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .container {
+
+        margin: 0 auto;
+        width: 320px;
+
+    }
+
+    h1 {
+
+        font-size: 24px;
+
+    }
+
+    h2 {
+
+        font-size: 20px;
+
+    }
+
+    .logo {
+
+        width: 320px !important;
+
+    }
+
+    .greetings {
+
+        width: 320px;
+        margin: 0 auto;
+
+    }
+
+    .box_sizes_media {
+
+        flex-direction: column;
+        margin: 0 auto;
+        width: 320px !important;
+        padding-bottom: 10px !important;
+
+    }
+
+    .box_sizes_picture_media, .about_business_text {
+
+        width: 100% !important;
+        text-align: center;
+        height: 200px !important;
+
+    }
+
+    .box_sizes_picture_img_media {
+
+        height: 200px !important;
+
+    }
+
+    .box_sizes_text_media {
+
+        width: 100% !important;
+
+    }
+
+    .description_text_categories {
+
+        font-size: 17px !important;
+
+    }
+
+    .font_size_media {
+
+        font-size: 17px !important;
+
+    }
+
+    .text_paragraph_media {
+
+        font-size: 13px !important;
+        padding-left: 0px !important;
+
+    }
+
+    .registration_text_link_media {
+
+        font-size: 15px !important;
+        padding-top: 15px !important;
+
+    }
+
+    .shop, .post, .phone {
+
+        font-size: 11px;
+
+    }   
+    
+    .footer_link_icons {
+
+        width: 10px !important;
+        height: 10px !important;
+
+    }
+
+}
